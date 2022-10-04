@@ -7,7 +7,7 @@ This is a repo of static files that can be used as a mock weather API for exampl
 A mock endpoint for the sever's date. The response is the Unix timestamp.
 
 ```
-curl https://airbrake.github.io/weatherapi/date
+curl https://scottsbaldwin.github.io/weatherapi/date
 ```
 
 ## Locations
@@ -15,7 +15,7 @@ curl https://airbrake.github.io/weatherapi/date
 Gets the supported locations as an array of identifiers. Each location identifier can be used with the weather endpoint below.
 
 ```
-curl https://airbrake.github.io/weatherapi/locations
+curl https://scottsbaldwin.github.io/weatherapi/locations
 ```
 
 Response:
@@ -29,8 +29,8 @@ Response:
 Gets the weather information for a supported location (from the locations endpoint above).
 
 ```
-# curl https://airbrake.github.io/weatherapi/weather/<locationId>
-curl https://airbrake.github.io/weatherapi/weather/austin
+# curl https://scottsbaldwin.github.io/weatherapi/weather/<locationId>
+curl https://scottsbaldwin.github.io/weatherapi/weather/austin
 ```
 
 Response (excerpt):
